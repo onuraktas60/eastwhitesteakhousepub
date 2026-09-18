@@ -10,7 +10,7 @@
              "620₺" gibi yazabilirsiniz.
    - image: boş bırakılırsa yerine şık bir yer tutucu gösterilir.
              Fotoğrafı /images klasörüne atıp
-             image: "images/urun-adi.jpg" yazmanız yeterli.
+             image: "urun-adi.jpg" yazmanız yeterli.
              Bir internet linki de yazılabilir.
    - desc:  ürün açıklaması (opsiyonel).
    - tag:   fotoğrafın üstünde küçük bir rozet, örn. "Şefin Önerisi" (opsiyonel).
@@ -20,7 +20,7 @@
 const RESTAURANT = {
   name: "East White Steak House & Pub Bar",
   full: "Steak House & Pub Bar",
-  logo: "images/logo.png",
+  logo: "logo.png",
   tagline: "Odun ateşinde pişen steak, sıcacık bir pub sofrası",
   note: "Fiyatlarımıza KDV dahildir. Alerjiniz varsa lütfen personelimize bildirin."
 };
@@ -33,7 +33,7 @@ const MENU = [
     subtitle: "İki kişilik hazırlanır",
     icon: "egg",
     layout: "list",
-    heroImage: "images/serpme.png",
+    heroImage: "serpme.png",
     groups: [
       {
         name: "Reçeller & Tatlılar",
@@ -118,22 +118,22 @@ const MENU = [
     subtitle: "Odun ızgarada, isteğinize göre pişirilir",
     icon: "steak",
     layout: "grid",
-    heroImage: "images/steak.png",
+    heroImage: "steak.png",
     items: [
-      { name: "Dana Şaşlık", desc: "Bonfile, antrikot, kontrfile seçenekleriyle", price: "", image: "images/saslik.png" },
-      { name: "Şatobriyan", desc: "Orta bonfile", price: "", image: "images/satobiryan.png" },
-      { name: "T-Bone Steak", desc: "Lomboz-sırt", price: "", image: "images/tbone.png" },
-      { name: "Ribeye", desc: "Antrikot, tuz ve karabiber ile sadece ateşte", price: "", image: "images/ribeye.png", tag: "Şefin Önerisi",
+      { name: "Dana Şaşlık", desc: "Bonfile, antrikot, kontrfile seçenekleriyle", price: "", image: "saslik.png" },
+      { name: "Şatobriyan", desc: "Orta bonfile", price: "", image: "satobiryan.png" },
+      { name: "T-Bone Steak", desc: "Lomboz-sırt", price: "", image: "tbone.png" },
+      { name: "Ribeye", desc: "Antrikot, tuz ve karabiber ile sadece ateşte", price: "", image: "ribeye.png", tag: "Şefin Önerisi",
         ingredients: ["Dana antrikot", "Deniz tuzu", "Kara biber", "Tereyağı", "Kekik"] },
-      { name: "New York Steak", desc: "Kontrfile", price: "", image: "images/newyorksteak.png" },
-      { name: "Madalyon", desc: "Bonfile", price: "", image: "images/madalyon.jpg" },
-      { name: "Porterhouse Steak", desc: "Kontrfile + bonfile", price: "", image: "images/Porterhouse.webp" },
-      { name: "Tomahawk Steak", desc: "Kemikli antrikot", price: "", image: "images/Tomahawk.jpg", tag: "Paylaşımlık" },
-      { name: "Delmonico Steak", desc: "", price: "", image: "images/Delmonico.avif" },
-      { name: "Dallas Steak", desc: "Kemikli antrikot", price: "", image: "images/Dallas.webp" },
-      { name: "Kuzu Pirzola", desc: "", price: "", image: "images/Kuzupirzola.webp" },
-      { name: "Kuzu Küşleme", desc: "", price: "", image: "images/Kuzukusleme.webp" },
-      { name: "Kafe de Paris Soslu Bonfile", desc: "", price: "", image: "images/cafedeparis.jpg" }
+      { name: "New York Steak", desc: "Kontrfile", price: "", image: "newyorksteak.png" },
+      { name: "Madalyon", desc: "Bonfile", price: "", image: "madalyon.jpg" },
+      { name: "Porterhouse Steak", desc: "Kontrfile + bonfile", price: "", image: "Porterhouse.webp" },
+      { name: "Tomahawk Steak", desc: "Kemikli antrikot", price: "", image: "Tomahawk.jpg", tag: "Paylaşımlık" },
+      { name: "Delmonico Steak", desc: "", price: "", image: "Delmonico.avif" },
+      { name: "Dallas Steak", desc: "Kemikli antrikot", price: "", image: "Dallas.webp" },
+      { name: "Kuzu Pirzola", desc: "", price: "", image: "Kuzupirzola.webp" },
+      { name: "Kuzu Küşleme", desc: "", price: "", image: "Kuzukusleme.webp" },
+      { name: "Kafe de Paris Soslu Bonfile", desc: "", price: "", image: "cafedeparis.jpg" }
     ]
   },
   {
@@ -142,15 +142,15 @@ const MENU = [
     subtitle: "",
     icon: "leaf",
     layout: "grid",
-    heroImage:"images/baslangic.png",
+    heroImage:"baslangic.png",
     items: [
-      { name: "Soğan Çiçeği", desc: "", price: "", image: "images/sogancicegi.png" },
-      { name: "Izgara Mantar", desc: "", price: "", image: "images/izgaramantar.png" },
-      { name: "Sote Mantar", desc: "", price: "", image: "images/sotemantar.png" },
-      { name: "Patates Püresi", desc: "", price: "", image: "images/patatespuresi.png" },
-      { name: "Parmak Patates", desc: "", price: "", image: "images/parmakpatates.png" },
-      { name: "Izgara Sebzeler", desc: "", price: "", image: "images/izgarasebze.png" },
-      { name: "Soğan Halkası", desc: "", price: "", image: "images/soganhalkasi.png" }
+      { name: "Soğan Çiçeği", desc: "", price: "", image: "sogancicegi.png" },
+      { name: "Izgara Mantar", desc: "", price: "", image: "izgaramantar.png" },
+      { name: "Sote Mantar", desc: "", price: "", image: "sotemantar.png" },
+      { name: "Patates Püresi", desc: "", price: "", image: "patatespuresi.png" },
+      { name: "Parmak Patates", desc: "", price: "", image: "parmakpatates.png" },
+      { name: "Izgara Sebzeler", desc: "", price: "", image: "izgarasebze.png" },
+      { name: "Soğan Halkası", desc: "", price: "", image: "soganhalkasi.png" }
     ]
   },
   {
