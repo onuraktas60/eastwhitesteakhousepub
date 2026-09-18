@@ -159,14 +159,15 @@ const MENU = [
     subtitle: "",
     icon: "burger",
     layout: "grid",
+       heroImage:"burger.png",
     footnote: "Burger köftesi %80 dana döş, %20 yağ oranıyla hazırlanır. Tavuk burgerlerde but eti kullanılır.",
     items: [
-      { name: "Classic Burger", desc: "180 g dana burger köftesi, marul, domates, turşu, karamelize soğan", price: "", image: "",
+      { name: "Classic Burger", desc: "180 g dana burger köftesi, marul, domates, turşu, karamelize soğan", price: "", image: "clasic.png",
         ingredients: ["Dana köfte 180g", "Marul", "Domates", "Turşu", "Karamelize soğan", "Burger ekmeği"] },
-      { name: "Cheeseburger", desc: "180 g dana burger köftesi, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "" },
-      { name: "Mushroom Burger", desc: "180 g dana burger köftesi, sote mantar, İsviçre peyniri, trüf mayonez", price: "", image: "", tag: "Şefin Önerisi" },
-      { name: "Chicken Burger", desc: "Çıtır tavuk, cheddar, marul, turşu, sarımsaklı mayonez", price: "", image: "" },
-      { name: "Chicken Cheeseburger", desc: "Çıtır tavuk, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "" }
+      { name: "Cheeseburger", desc: "180 g dana burger köftesi, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "chesse.png" },
+      { name: "Mushroom Burger", desc: "180 g dana burger köftesi, sote mantar, İsviçre peyniri, trüf mayonez", price: "", image: "Mushroom.png", tag: "Şefin Önerisi" },
+      { name: "Chicken Burger", desc: "Çıtır tavuk, cheddar, marul, turşu, sarımsaklı mayonez", price: "", image: "chicken.png" },
+      { name: "Chicken Cheeseburger", desc: "Çıtır tavuk, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "chickencheese.png" }
     ]
   },
   {
@@ -175,13 +176,14 @@ const MENU = [
     subtitle: "",
     icon: "pizza",
     layout: "grid",
+      heroImage:"pizza.png",
     items: [
-      { name: "Margherita", desc: "Domates sos, mozzarella, fesleğen", price: "", image: "",
+      { name: "Margherita", desc: "Domates sos, mozzarella, fesleğen", price: "", image: "margherita.png",
         ingredients: ["Domates sosu", "Mozzarella", "Taze fesleğen", "Zeytinyağı"] },
-      { name: "Pepperoni", desc: "Domates sos, mozzarella, pepperoni", price: "", image: "" },
-      { name: "Vegetarian Pizza", desc: "Mantar, biber, mısır, zeytin", price: "", image: "" },
-      { name: "Prosciutto e Funghi", desc: "Domates sosu, mozzarella, prosciutto cotto (sucuk), mantar", price: "", image: "" },
-      { name: "Karışık Pizza", desc: "Domates sos, mozzarella peyniri, sucuk veya salam, mantar, biber, zeytin, mısır", price: "", image: "" }
+      { name: "Pepperoni", desc: "Domates sos, mozzarella, pepperoni", price: "", image: "pepperoni.png" },
+      { name: "Vegetarian Pizza", desc: "Mantar, biber, mısır, zeytin", price: "", image: "vegetarian.png" },
+      { name: "Prosciutto e Funghi", desc: "Domates sosu, mozzarella, prosciutto cotto (sucuk), mantar", price: "", image: "Prosciutto.png" },
+      { name: "Karışık Pizza", desc: "Domates sos, mozzarella peyniri, sucuk veya salam, mantar, biber, zeytin, mısır", price: "", image: "karisik.png" }
     ]
   },
   {
@@ -190,13 +192,14 @@ const MENU = [
     subtitle: "",
     icon: "pasta",
     layout: "grid",
+     heroImage:"makarna.png",
     items: [
-      { name: "Kremalı Karamelize Soğanlı", desc: "", price: "", image: "" },
-      { name: "Kremalı Köz Patlıcanlı", desc: "", price: "", image: "" },
-      { name: "Bolonez Soslu", desc: "", price: "", image: "" },
-      { name: "Marinara Soslu", desc: "", price: "", image: "" },
-      { name: "Pesto Soslu", desc: "", price: "", image: "" },
-      { name: "Kremalı Mantarlı", desc: "", price: "", image: "" }
+      { name: "Kremalı Karamelize Soğanlı", desc: "", price: "", image: "sogan.png" },
+      { name: "Kremalı Köz Patlıcanlı", desc: "", price: "", image: "patlican.png" },
+      { name: "Bolonez Soslu", desc: "", price: "", image: "bolonez.png" },
+      { name: "Marinara Soslu", desc: "", price: "", image: "marinara.png" },
+      { name: "Pesto Soslu", desc: "", price: "", image: "pesto.png" },
+      { name: "Kremalı Mantarlı", desc: "", price: "", image: "krema.png" }
     ]
   },
   {
@@ -205,12 +208,13 @@ const MENU = [
     subtitle: "",
     icon: "salad",
     layout: "grid",
+     heroImage:"salata.png",
     items: [
-      { name: "Akdeniz Salatası", desc: "", price: "", image: "" },
-      { name: "Gavurdağı Salata", desc: "", price: "", image: "" },
-      { name: "Roka Salatası", desc: "", price: "", image: "" },
-      { name: "Mevsim Salata", desc: "", price: "", image: "" },
-      { name: "Çoban Salata", desc: "", price: "", image: "" }
+      { name: "Akdeniz Salatası", desc: "", price: "", image: "akdeniz.png" },
+      { name: "Gavurdağı Salata", desc: "", price: "", image: "gavurdagi.png" },
+      { name: "Roka Salatası", desc: "", price: "", image: "roka.png" },
+      { name: "Mevsim Salata", desc: "", price: "", image: "mevsim.png" },
+      { name: "Çoban Salata", desc: "", price: "", image: "coban.png" }
     ]
   },
   {
@@ -219,6 +223,7 @@ const MENU = [
     subtitle: "",
     icon: "meze",
     layout: "grid",
+      heroImage:"meze.png",
     items: []
   }
 ];
