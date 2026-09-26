@@ -27,89 +27,173 @@ const RESTAURANT = {
 
 const MENU = [
 
+
+
   {
     id: "kahvalti",
-    title: "Serpme Kahvaltı",
-    subtitle: "İki kişilik hazırlanır",
+    title: "Kahvaltılıklar",
+    subtitle: "Güne taze ve lezzetli bir başlangıç.",
     icon: "egg",
-    layout: "list",
+    layout: "grid",
     heroImage: "serpme.png",
-    groups: [
-      {
-        name: "Reçeller & Tatlılar",
-        items: [
-          { name: "Çilek Reçeli", price: "", image: "" },
-          { name: "Kayısı Reçeli", price: "", image: "" },
-          { name: "Vişne Reçeli", price: "", image: "" },
-          { name: "İncir Reçeli", price: "", image: "" },
-          { name: "Bal", price: "", image: "" },
-          { name: "Çikolatalı Fındık Kreması", price: "", image: "" },
-          { name: "Tahin-Pekmez", price: "", image: "" }
-        ]
-      },
-      {
-        name: "Peynirler",
-        items: [
-          { name: "Otlu Peynir", price: "", image: "" },
-          { name: "Otsuz Peynir", price: "", image: "" },
-          { name: "Kaşar Peyniri", price: "", image: "" },
-          { name: "Beyaz Peynir", price: "", image: "" },
-          { name: "Ezine Peyniri", price: "", image: "" },
-          { name: "Tereyağ", price: "", image: "" },
-          { name: "Kaymak", price: "", image: "" }
-        ]
-      },
-      {
-        name: "Zeytin & Şarküteri",
-        items: [
-          { name: "Siyah Zeytin", price: "", image: "" },
-          { name: "Yeşil Zeytin", price: "", image: "" },
-          { name: "Acuka", price: "", image: "" },
-          { name: "Salam", price: "", image: "" }
-        ]
-      },
-      {
-        name: "Sebze & Kuruyemiş",
-        items: [
-          { name: "Salatalık", price: "", image: "" },
-          { name: "Domates", price: "", image: "" },
-          { name: "Biber", price: "", image: "" },
-          { name: "Maydanoz", price: "", image: "" },
-          { name: "Marul", price: "", image: "" },
-          { name: "Kuru Kayısı", price: "", image: "" },
-          { name: "Kuru İncir", price: "", image: "" },
-          { name: "Ceviz", price: "", image: "" },
-          { name: "Mevsim Meyveleri", price: "", image: "" }
-        ]
-      },
-      {
-        name: "Yumurta & Sıcaklar",
-        items: [
-          { name: "Göz Yumurta", price: "", image: "" },
-          { name: "Omlet", price: "", image: "" },
-          { name: "Haşlanmış Yumurta", price: "", image: "" },
-          { name: "Sucuklu Kaşarlı Yumurta", price: "", image: "" },
-          { name: "Sucuklu Yumurta", price: "", image: "" },
-          { name: "Menemen", price: "", image: "" },
-          { name: "Pankek", price: "", image: "" },
-          { name: "Krep", price: "", image: "" },
-          { name: "Patates Kızartması", price: "", image: "" },
-          { name: "Kuymak", price: "", image: "" },
-          { name: "Kavurmalı Yumurta", price: "", image: "" },
-          { name: "Sigara Böreği", price: "", image: "" },
-          { name: "Salçalı Sosis", price: "", image: "" }
-        ]
-      },
-      {
-        name: "Ekmek & Hamur İşleri",
-        items: [
-          { name: "Ekmek", price: "", image: "" },
-          { name: "Simit", price: "", image: "" },
-          { name: "Poğaça", price: "", image: "" },
-          { name: "Açma", price: "", image: "" },
-          { name: "Börek", price: "", image: "" }
-        ]
-      }
+    items: [
+     {
+  name: "Serpme Kahvaltı",
+  desc: "En az iki kişilik",
+  price: "",
+  image: "serpme.png",
+  ingredients: [
+    "3 çeşit reçel",
+    "Çikolatalı fındık kreması",
+    "Tahin-pekmez",
+    "Bal-kaymak",
+    "Helva",
+    "Tereyağı",
+    "5 çeşit peynir",
+    "Zeytin çeşitleri",
+    "Acuka",
+    "Salam",
+    "Salatalık",
+    "Domates",
+    "Biber",
+    "Maydanoz",
+    "Marul",
+    "Kuru meyveler",
+    "Mevsim meyveleri",
+    "Ceviz",
+    "Patates kızartması",
+    "Soğan halkası",
+    "Nugget",
+    "Sigara böreği",
+    "Menemen",
+    "Sucuklu yumurta",
+    "Ekmek",
+    "Simit",
+    "Poğaça",
+    "Açma",
+    "Çay"
+  ]
+},
+   {
+  name: "Kahvaltı Tabağı",
+  desc: "Zengin kahvaltılık çeşitleriyle",
+  price: "",
+  image: "kahvalti-tabagi.png",
+  ingredients: [
+    "2 çeşit reçel",
+    "Çikolatalı fındık kreması",
+    "Helva",
+    "Bal-kaymak",
+    "3 çeşit peynir",
+    "Zeytin çeşitleri",
+    "Salam",
+    "Salatalık",
+    "Domates",
+    "Biber",
+    "Maydanoz",
+    "Yumurta",
+    "Ekmek",
+    "Çay"
+  ]
+}  
+,
+  {
+    name: "Kuymak",
+    desc: "Tereyağı ve peynir ile",
+    price: "",
+    image: "kuymak.png"
+  },
+  {
+    name: "Kavurmalı Yumurta",
+    desc: "Kavurma ve yumurta",
+    price: "",
+    image: "kavurmali-yumurta.png"
+  },
+  {
+    name: "Kıymalı Yumurta",
+    desc: "Kıyma ve yumurta",
+    price: "",
+    image: "kiymali-yumurta.png"
+  },
+  {
+    name: "Göz Yumurta",
+    desc: "Tereyağında göz yumurta",
+    price: "",
+    image: "goz-yumurta.png"
+  },
+  {
+    name: "Omlet",
+    desc: "Taze yumurta ile",
+    price: "",
+    image: "omlet.png"
+  },
+  {
+    name: "Haşlanmış Yumurta",
+    desc: "Haşlanmış yumurta",
+    price: "",
+    image: "haslanmis-yumurta.png"
+  },
+  {
+    name: "Sucuklu Yumurta",
+    desc: "Sucuk ve yumurta",
+    price: "",
+    image: "sucuklu-yumurta.png"
+  },
+  {
+    name: "Sucuklu Kaşarlı Yumurta",
+    desc: "Sucuk, yumurta ve kaşar",
+    price: "",
+    image: "sucuklu-kasarli-yumurta.png"
+  },
+  {
+    name: "Menemen",
+    desc: "Domates, biber ve yumurta",
+    price: "",
+    image: "menemen.png"
+  },
+  {
+    name: "Pankek",
+    desc: "Yumuşak ve hafif",
+    price: "",
+    image: "pankek.png"
+  },
+  {
+    name: "Krep",
+    desc: "İnce ve yumuşak",
+    price: "",
+    image: "krep.png"
+  },
+  {
+    name: "Patates Kızartması",
+    desc: "Çıtır patatesler",
+    price: "",
+    image: "parmak-patates.png"
+  },
+  {
+    name: "Soğan Halkası",
+    desc: "Çıtır soğan halkaları",
+    price: "",
+    image: "sogan-halkasi.png"
+  },
+  {
+    name: "Nugget",
+    desc: "Çıtır tavuk parçaları",
+    price: "",
+    image: "nugget.png"
+  },
+  {
+    name: "Sigara Böreği",
+    desc: "Çıtır peynirli börek",
+    price: "",
+    image: "sigara-boregi.png"
+  },
+  {
+    name: "Kızarmış Sucuk",
+    desc: "Tavada kızartılmış sucuk",
+    price: "",
+    image: "kizarmis-sucuk.png"
+  }
+
     ]
   },
   {
@@ -123,17 +207,15 @@ const MENU = [
       { name: "Dana Şaşlık", desc: "Bonfile, antrikot, kontrfile seçenekleriyle", price: "", image: "saslik.png" },
       { name: "Şatobriyan", desc: "Orta bonfile", price: "", image: "satobiryan.png" },
       { name: "T-Bone Steak", desc: "Lomboz-sırt", price: "", image: "tbone.png" },
-      { name: "Ribeye", desc: "Antrikot, tuz ve karabiber ile sadece ateşte", price: "", image: "ribeye.png", tag: "Şefin Önerisi",
+      { name: "R-Bay ", desc: "Antrikot, tuz ve karabiber ile sadece ateşte", price: "", image: "ribeye.png", tag: "Şefin Önerisi",
         ingredients: ["Dana antrikot", "Deniz tuzu", "Kara biber", "Tereyağı", "Kekik"] },
       { name: "New York Steak", desc: "Kontrfile", price: "", image: "newyorksteak.png" },
       { name: "Madalyon", desc: "Bonfile", price: "", image: "madalyon.jpg" },
       { name: "Porterhouse Steak", desc: "Kontrfile + bonfile", price: "", image: "Porterhouse.webp" },
       { name: "Tomahawk Steak", desc: "Kemikli antrikot", price: "", image: "Tomahawk.jpg", tag: "Paylaşımlık" },
-      { name: "Delmonico Steak", desc: "", price: "", image: "Delmonico.avif" },
-      { name: "Dallas Steak", desc: "Kemikli antrikot", price: "", image: "Dallas.webp" },
       { name: "Kuzu Pirzola", desc: "", price: "", image: "Kuzupirzola.webp" },
       { name: "Kuzu Küşleme", desc: "", price: "", image: "Kuzukusleme.webp" },
-      { name: "Kafe de Paris Soslu Bonfile", desc: "", price: "", image: "cafedeparis.jpg" }
+
     ]
   },
   {
@@ -144,13 +226,14 @@ const MENU = [
     layout: "grid",
     heroImage:"baslangic.png",
     items: [
-      { name: "Soğan Çiçeği", desc: "", price: "", image: "sogancicegi.png" },
+      { name: "Soğan Çiçeği", desc: "", price: "", image: "sogan-cicegi.jpg" },
       { name: "Izgara Mantar", desc: "", price: "", image: "izgaramantar.png" },
       { name: "Sote Mantar", desc: "", price: "", image: "sotemantar.png" },
-      { name: "Patates Püresi", desc: "", price: "", image: "patatespuresi.png" },
-      { name: "Parmak Patates", desc: "", price: "", image: "parmakpatates.png" },
-      { name: "Izgara Sebzeler", desc: "", price: "", image: "izgarasebze.png" },
-      { name: "Soğan Halkası", desc: "", price: "", image: "soganhalkasi.png" }
+      { name: "Kaşarlı Mantar", desc: "", price: "", image: "kasarli-mantar.jpg" },
+      { name: "Parmak Patates", desc: "", price: "", image: "parmak-patates.png" },
+      { name: "Elma Dilim Patates", desc: "", price: "", image: "elma-dilim.png" },
+      { name: "Çıtır Tavuk", desc: "", price: "", image: "chicken.png" },
+      { name: "Soğan Halkası", desc: "", price: "", image: "sogan-halkasi.png" }
     ]
   },
   {
@@ -162,12 +245,12 @@ const MENU = [
        heroImage:"burger.png",
     footnote: "Burger köftesi %80 dana döş, %20 yağ oranıyla hazırlanır. Tavuk burgerlerde but eti kullanılır.",
     items: [
-      { name: "Classic Burger", desc: "180 g dana burger köftesi, marul, domates, turşu, karamelize soğan", price: "", image: "clasic.png",
-        ingredients: ["Dana köfte 180g", "Marul", "Domates", "Turşu", "Karamelize soğan", "Burger ekmeği"] },
-      { name: "Cheeseburger", desc: "180 g dana burger köftesi, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "chesse.png" },
-      { name: "Mushroom Burger", desc: "180 g dana burger köftesi, sote mantar, İsviçre peyniri, trüf mayonez", price: "", image: "Mushroom.png", tag: "Şefin Önerisi" },
-      { name: "Chicken Burger", desc: "Çıtır tavuk, cheddar, marul, turşu, sarımsaklı mayonez", price: "", image: "chicken.png" },
-      { name: "Chicken Cheeseburger", desc: "Çıtır tavuk, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "chickencheese.png" }
+      { name: "Classic Burger", desc: "150 g dana burger köftesi, marul, domates, turşu, karamelize soğan", price: "", image: "clasic.png",
+        ingredients: ["Dana köfte 150g", "Marul", "Domates", "Turşu", "Karamelize soğan", "Burger ekmeği"] },
+      { name: "Cheeseburger", desc: "150 g dana burger köftesi, çift cheddar peyniri, turşu, soğan, hardal ve ketçap", price: "", image: "chesse.png" },
+      { name: "Easwhite Burger", desc: "300 gr et, marul, domates, karamelize Soğan, sos, turşu, cheddar ", price: "", image: "Mushroom.png", tag: "Şefin Önerisi" },
+      { name: "Chicken Burger", desc: "Çıtır tavuk, cheddar, marul, turşu, sarımsaklı mayonez", price: "", image: "chicken-burger.png" },
+      { name: "Easwhite Chicken Burger", desc: "Tavuk,marul domates, turşu,sos, karamelize soğan,cheddar", price: "", image: "chickencheese.png" }
     ]
   },
   {
@@ -183,7 +266,7 @@ const MENU = [
       { name: "Pepperoni", desc: "Domates sos, mozzarella, pepperoni", price: "", image: "pepperoni.png" },
       { name: "Vegetarian Pizza", desc: "Mantar, biber, mısır, zeytin", price: "", image: "vegetarian.png" },
       { name: "Prosciutto e Funghi", desc: "Domates sosu, mozzarella, prosciutto cotto (sucuk), mantar", price: "", image: "Prosciutto.png" },
-      { name: "Karışık Pizza", desc: "Domates sos, mozzarella peyniri, sucuk veya salam, mantar, biber, zeytin, mısır", price: "", image: "karisik.png" }
+      { name: "Easwhite Pizza", desc: "Domates Sos, Mozzarella, mantar, biber, mısır, zeytin, sucuk", price: "", image: "karisik.png" }
     ]
   },
   {
@@ -194,10 +277,10 @@ const MENU = [
     layout: "grid",
      heroImage:"makarna.png",
     items: [
-      { name: "Kremalı Karamelize Soğanlı", desc: "", price: "", image: "sogan.png" },
-      { name: "Kremalı Köz Patlıcanlı", desc: "", price: "", image: "patlican.png" },
+      { name: "Kremalı Karamelize Soğanlı", desc: "", price: "", image: "soganli.png" },
+      { name: "Napolitan Soslu", desc: "", price: "", image: "marinara.png" },
       { name: "Bolonez Soslu", desc: "", price: "", image: "bolonez.png" },
-      { name: "Marinara Soslu", desc: "", price: "", image: "marinara.png" },
+      { name: "Arabiatta Soslu", desc: "", price: "", image: "arrbiatta.png" },
       { name: "Pesto Soslu", desc: "", price: "", image: "pesto.png" },
       { name: "Kremalı Mantarlı", desc: "", price: "", image: "krema.png" }
     ]
@@ -214,7 +297,8 @@ const MENU = [
       { name: "Gavurdağı Salata", desc: "", price: "", image: "gavurdagi.png" },
       { name: "Roka Salatası", desc: "", price: "", image: "roka.png" },
       { name: "Mevsim Salata", desc: "", price: "", image: "mevsim.png" },
-      { name: "Çoban Salata", desc: "", price: "", image: "coban.png" }
+      { name: "Çoban Salata", desc: "", price: "", image: "coban.png" },
+      { name: "Soğan Salatası", desc: "", price: "", image: "sogan.png" }
     ]
   },
   {
@@ -224,6 +308,17 @@ const MENU = [
     icon: "meze",
     layout: "grid",
       heroImage:"meze.png",
-    items: []
+    items: [
+
+      { name: "Havuç Tarator", desc: "", price: "", image: "havuc-tarator.png" },
+      { name: "Köz Patlıcanlı Yoğurt ", desc: "", price: "", image: "koz-patlicanli.png" },
+      { name: "Girit Ezmesi", desc: "", price: "", image: "girit.png" },
+      { name: "Kuru Cacık", desc: "", price: "", image: "kuru-cacik.png" },
+      { name: "Acılı Ezme", desc: "", price: "", image: "acili-ezme.png" },
+      { name: "Karışık Söğürme", desc: "", price: "", image: "sogurme.png" },
+      { name: "Köz Soğan Mezesi", desc: "", price: "", image: "koz-sogan.png" },
+      { name: "Koyun Yoğurdu", desc: "", price: "", image: "yogurt.png" }
+
+    ]
   }
 ];
