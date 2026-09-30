@@ -320,5 +320,235 @@ const MENU = [
       { name: "Koyun Yoğurdu", desc: "", price: "", image: "yogurt.png" }
 
     ]
+  },
+  {
+  id: "biralar",
+  title: "Biralar / Beers",
+  subtitle: "Şişe bira seçenekleri",
+  icon: "beer",
+  layout: "list",
+  heroImage:"beers.png",
+  groups: [ {
+         name: "Biralar / Beers",
+  items: [
+    { name: "Efes Şişe", desc: "", price: "", image: "" },
+    { name: "Efes Malt Şişe", desc: "", price: "", image: "" },
+    { name: "Efes Green Şişe", desc: "", price: "", image: "" },
+    { name: "Bomonti Şişe", desc: "", price: "", image: "" },
+    { name: "Miller Şişe", desc: "", price: "", image: "" },
+    { name: "Corona Şişe", desc: "", price: "", image: "" },
+    { name: "Carlsberg Şişe", desc: "", price: "", image: "" },
+    { name: "Tuborg Malt Şişe", desc: "", price: "", image: "" },
+    { name: "Tuborg Kırmızı Şişe", desc: "", price: "", image: "" }
+  ]
+}]
+},
+
+{
+  id: "alkolsuz-icecekler",
+  title: "Alkolsüz İçecekler / Non-Alcoholic Drinks",
+  subtitle: "Serinletici içecek seçenekleri",
+  icon: "drink",
+  layout: "list",
+    heroImage:"alkolsuz.png",
+  groups: [ {
+      name: "Alkolsüz İçecekler / Non-Alcoholic Drinks",
+    
+  items: [
+    
+    { name: "Coca Cola", desc: "", price: "", image: "" },
+    { name: "Fanta", desc: "", price: "", image: "" },
+    { name: "Sprite", desc: "", price: "", image: "" },
+    { name: "Meyve Suyu", desc: "", price: "", image: "" },
+    { name: "Soda", desc: "", price: "", image: "" },
+    { name: "Red Bull", desc: "", price: "", image: "" },
+    { name: "Ice Tea", desc: "", price: "", image: "" },
+    { name: "Türk Kahvesi", desc: "", price: "", image: "" },
+    { name: "Çay", desc: "", price: "", image: "" }
+  ]
+}]
+},
+
+{
+  id: "kokteyller",
+  title: "Kokteyller / Cocktails",
+  subtitle: "Özenle hazırlanan klasik ve özel kokteyller",
+  icon: "cocktail",
+  layout: "list",
+      heroImage:"kokteyl.png",
+  groups: [ {
+    name: "Kokteyller / Cocktails",
+ items: [
+  {
+    name: "Mojito",
+    desc: "Beyaz rom, lime, nane, şeker, soda",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Margarita",
+    desc: "Tekila, triple sec, lime suyu",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Cosmopolitan",
+    desc: "Votka, Cointreau, lime, turna yemişi suyu",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Sex on the Beach",
+    desc: "Votka, şeftali likörü, portakal suyu, turna yemişi suyu",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Mai Tai",
+    desc: "Rom çeşitleri, orange curaçao, orgeat, lime, şeker şurubu",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Tekila Sunrise",
+    desc: "Tekila, portakal suyu, grenadine",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Negroni",
+    desc: "Gin, Campari, tatlı kırmızı vermut",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Mezcal Negroni",
+    desc: "Mezcal, Campari, tatlı kırmızı vermut",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Cherokee",
+    desc: "Gin, beyaz rom, portakal suyu, esmer şeker",
+    price: "",
+    image: ""
+  },
+  {
+    name: "B-52",
+    desc: "Kahve likörü, Baileys, Cointreau",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Piña Colada",
+    desc: "Beyaz rom, coconut cream, ananas suyu",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Bahama Mama",
+    desc: "Rom, coconut romu, portakal suyu, ananas suyu, grenadine",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Whiskey Sour",
+    desc: "Bourbon, limon suyu, şeker şurubu, yumurta akı",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Irish Coffee",
+    desc: "Irish whiskey, sıcak kahve, şeker, krema",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Espresso Martini",
+    desc: "Votka, kahve likörü, espresso, şeker şurubu",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Lynchburg Lemonade",
+    desc: "Jack Daniel's, triple sec, limon, Sprite",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Daiquiri",
+    desc: "Beyaz rom, lime suyu, şeker",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Aperol Spritz",
+    desc: "Aperol, prosecco, soda",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Moscow Mule",
+    desc: "Votka, ginger beer, lime",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Kuzu Kulağı",
+    desc: "Votka, gin, kuzu kulağı, yeşil elma, lime, soda",
+    price: "",
+    image: ""
+  },
+  {
+    name: "White Rose",
+    desc: "Beyaz rom, lime, şeker şurubu, soda",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Dry Martini",
+    desc: "Gin, kuru vermut, yeşil zeytin",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Blue Hawaii",
+    desc: "Beyaz rom, blue curaçao, ananas suyu, coconut cream, lime",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Bloody Mary",
+    desc: "Votka, domates suyu, limon, Worcestershire sosu, Tabasco, baharatlar",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Manhattan",
+    desc: "Rye whiskey, tatlı kırmızı vermut, Angostura bitters",
+    price: "",
+    image: ""
+  },
+  {
+    name: "New York Sour",
+    desc: "Bourbon veya rye whiskey, limon suyu, şeker şurubu, yumurta akı, kırmızı şarap",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Bob Marley",
+    desc: "Rom, grenadine, ananas suyu, portakal suyu, turunç likörü",
+    price: "",
+    image: ""
+  },
+  {
+    name: "Gin Tonic",
+    desc: "Gin, tonik, lime",
+    price: "",
+    image: ""
   }
+]
+}
+]
+}
 ];
