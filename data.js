@@ -368,7 +368,177 @@ const MENU = [
   ]
 }]
 },
-
+{
+  
+  id: "alkollu-icecekler",
+  title: "Alkollü İçecekler",
+  subtitle: "Seçkin alkollü içecek çeşitleri",
+  icon: "wine",
+  layout: "list",
+  heroImage: "alkollu-icecekler.png",
+    groups: [ {
+      name: "Alkollü İçecekler / Alcoholic Drinks",
+  items: [
+    {
+      name: "Yeni Rakı",
+      desc: "Klasik Türk rakısı",
+      price: "",
+      image: "yeni-raki.png"
+    },
+    {
+      name: "Beylerbeyi Rakı",
+      desc: "Premium Türk rakısı",
+      price: "",
+      image: "beylerbeyi-raki.png"
+    },
+    {
+      name: "Tekirdağ Rakısı",
+      desc: "Geleneksel Türk rakısı",
+      price: "",
+      image: "tekirdag-rakisi.png"
+    },
+    {
+      name: "Chivas Regal",
+      desc: "İskoç harman viski",
+      price: "",
+      image: "chivas-regal.png"
+    },
+    {
+      name: "Scotch Blue",
+      desc: "Blended Scotch Whisky",
+      price: "",
+      image: "scotch-blue.png"
+    },
+    {
+      name: "Gentleman Jack",
+      desc: "Tennessee whiskey",
+      price: "",
+      image: "gentleman-jack.png"
+    },
+    {
+      name: "Red Label",
+      desc: "Blended Scotch Whisky",
+      price: "",
+      image: "red-label.png"
+    },
+    {
+      name: "Jack Daniel's",
+      desc: "Tennessee whiskey",
+      price: "",
+      image: "jack-daniels.png"
+    },
+    {
+      name: "J&B",
+      desc: "Blended Scotch Whisky",
+      price: "",
+      image: "jb.png"
+    },
+    {
+      name: "Absolut Vodka",
+      desc: "İsveç votkası",
+      price: "",
+      image: "absolut-vodka.png"
+    },
+    {
+      name: "İstanblue Vodka",
+      desc: "Premium votka",
+      price: "",
+      image: "istanblue-vodka.png"
+    },
+    {
+      name: "Gilbey's Gin",
+      desc: "London Dry Gin",
+      price: "",
+      image: "gilbeys-gin.png"
+    },
+    {
+      name: "Mezcal",
+      desc: "Agave bazlı Meksika içkisi",
+      price: "",
+      image: "mezcal.png"
+    },
+    {
+      name: "Jägermeister",
+      desc: "Bitkisel likör",
+      price: "",
+      image: "jagermeister.png"
+    },
+    {
+      name: "Bacardi Rum",
+      desc: "Beyaz rom",
+      price: "",
+      image: "bacardi-rum.png"
+    },
+    {
+      name: "Bacardi Rum Siyah",
+      desc: "Koyu rom",
+      price: "",
+      image: "bacardi-black.png"
+    },
+    {
+      name: "Olmeca Tekila",
+      desc: "Agave bazlı tekila",
+      price: "",
+      image: "olmeca-tekila.png"
+    },
+    {
+      name: "Baileys",
+      desc: "İrlanda kremalı likör",
+      price: "",
+      image: "baileys.png"
+    },
+    {
+      name: "Efes Şişe",
+      desc: "Efes bira",
+      price: "",
+      image: "efes-sise.png"
+    },
+    {
+      name: "Efes Malt Kutu",
+      desc: "Efes Malt bira",
+      price: "",
+      image: "efes-malt-kutu.png"
+    },
+    {
+      name: "Carlsberg Şişe",
+      desc: "Carlsberg bira",
+      price: "",
+      image: "carlsberg-sise.png"
+    },
+    {
+      name: "Carlsberg Kutu",
+      desc: "Carlsberg bira",
+      price: "",
+      image: "carlsberg-kutu.png"
+    },
+    {
+      name: "Bomonti Şişe",
+      desc: "Bomonti bira",
+      price: "",
+      image: "bomonti-sise.png"
+    },
+    {
+      name: "Amsterdam Kutu",
+      desc: "Amsterdam bira",
+      price: "",
+      image: "amsterdam-kutu.png"
+    },
+    {
+      name: "Corona Şişe",
+      desc: "Corona Extra bira",
+      price: "",
+      image: "corona-sise.png"
+    },
+    {
+      name: "Miller Şişe",
+      desc: "Miller Genuine Draft",
+      price: "",
+      image: "miller-sise.png"
+    }
+  ]
+}
+ ]
+},
 {
   id: "kokteyller",
   title: "Kokteyller / Cocktails",
