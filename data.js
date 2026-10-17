@@ -303,15 +303,15 @@ const MENU = [
   groups: [ {
          name: "Biralar / Beers",
   items: [
-    { name: "Efes Şişe", desc: "", price: "", image: "" },
-    { name: "Efes Malt Şişe", desc: "", price: "", image: "" },
-    { name: "Efes Green Şişe", desc: "", price: "", image: "" },
-    { name: "Bomonti Şişe", desc: "", price: "", image: "" },
-    { name: "Miller Şişe", desc: "", price: "", image: "" },
-    { name: "Corona Şişe", desc: "", price: "", image: "" },
-    { name: "Carlsberg Şişe", desc: "", price: "", image: "" },
-    { name: "Tuborg Malt Şişe", desc: "", price: "", image: "" },
-    { name: "Tuborg Kırmızı Şişe", desc: "", price: "", image: "" }
+    { name: "Efes Şişe", desc: "", price: "", image: "efes.png" },
+    { name: "Efes Malt Şişe", desc: "", price: "", image: "efes-malt.png" },
+    { name: "Efes Green Şişe", desc: "", price: "", image: "efes-green.png" },
+    { name: "Bomonti Şişe", desc: "", price: "", image: "bomonti.png" },
+    { name: "Miller Şişe", desc: "", price: "", image: "miller.png" },
+    { name: "Corona Şişe", desc: "", price: "", image: "corona.png" },
+    { name: "Carlsberg Şişe", desc: "", price: "", image: "carlsberg.png" },
+    { name: "Tuborg Malt Şişe", desc: "", price: "", image: "tuborg.png" },
+    { name: "Tuborg Kırmızı Şişe", desc: "", price: "", image: "tuborg-kirmizi.png" }
   ]
 }]
 },
