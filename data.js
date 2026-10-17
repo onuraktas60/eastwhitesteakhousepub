@@ -319,24 +319,21 @@ const MENU = [
   title: "Alkolsüz İçecekler / Non-Alcoholic Drinks",
   subtitle: "Serinletici içecek seçenekleri",
   icon: "drink",
-  layout: "list",
+  layout: "grid",
     heroImage:"alkolsuz.png",
-  groups: [ {
-      name: "Alkolsüz İçecekler / Non-Alcoholic Drinks",
-    
   items: [
     
-    { name: "Coca Cola", desc: "", price: "", image: "" },
-    { name: "Fanta", desc: "", price: "", image: "" },
-    { name: "Sprite", desc: "", price: "", image: "" },
-    { name: "Meyve Suyu", desc: "", price: "", image: "" },
-    { name: "Soda", desc: "", price: "", image: "" },
-    { name: "Red Bull", desc: "", price: "", image: "" },
-    { name: "Ice Tea", desc: "", price: "", image: "" },
-    { name: "Türk Kahvesi", desc: "", price: "", image: "" },
-    { name: "Çay", desc: "", price: "", image: "" }
+    { name: "Coca Cola", desc: "", price: "", image: "cola.png" },
+    { name: "Fanta", desc: "", price: "", image: "fanta.png" },
+    { name: "Sprite", desc: "", price: "", image: "sprite.png" },
+    { name: "Meyve Suyu", desc: "", price: "", image: "meyvesuyu.png" },
+    { name: "Soda", desc: "", price: "", image: "soda.png" },
+    { name: "Red Bull", desc: "", price: "", image: "redbull.png" },
+    { name: "Ice Tea", desc: "", price: "", image: "icetea.png" },
+    { name: "Türk Kahvesi", desc: "", price: "", image: "kahve.png" },
+    { name: "Çay", desc: "", price: "", image: "cay.png" }
   ]
-}]
+
 },
 {
   
@@ -344,10 +341,9 @@ const MENU = [
   title: "Alkollü İçecekler",
   subtitle: "Seçkin alkollü içecek çeşitleri",
   icon: "wine",
-  layout: "list",
+  layout: "grid",
   heroImage: "alkollu-icecekler.png",
-    groups: [ {
-      name: "Alkollü İçecekler / Alcoholic Drinks",
+
   items: [
     {
       name: "Yeni Rakı",
@@ -461,7 +457,7 @@ const MENU = [
       name: "Efes Şişe",
       desc: "Efes bira",
       price: "",
-      image: "efes-sise.png"
+      image: "efes.png"
     },
     {
       name: "Efes Malt Kutu",
@@ -473,7 +469,7 @@ const MENU = [
       name: "Carlsberg Şişe",
       desc: "Carlsberg bira",
       price: "",
-      image: "carlsberg-sise.png"
+      image: "carlsberg.png"
     },
     {
       name: "Carlsberg Kutu",
@@ -485,7 +481,7 @@ const MENU = [
       name: "Bomonti Şişe",
       desc: "Bomonti bira",
       price: "",
-      image: "bomonti-sise.png"
+      image: "bomonti.png"
     },
     {
       name: "Amsterdam Kutu",
@@ -497,16 +493,14 @@ const MENU = [
       name: "Corona Şişe",
       desc: "Corona Extra bira",
       price: "",
-      image: "corona-sise.png"
+      image: "corona.png"
     },
     {
       name: "Miller Şişe",
       desc: "Miller Genuine Draft",
       price: "",
-      image: "miller-sise.png"
+      image: "miller.png"
     }
-  ]
-}
  ]
 },
 {
@@ -514,205 +508,202 @@ const MENU = [
   title: "Kokteyller / Cocktails",
   subtitle: "Özenle hazırlanan klasik ve özel kokteyller",
   icon: "cocktail",
-  layout: "list",
+  layout: "grid",
       heroImage:"kokteyl.png",
-  groups: [ {
-    name: "Kokteyller / Cocktails",
  items: [
   {
     name: "Mojito",
     desc: "Beyaz rom, lime, nane, şeker, soda",
     price: "",
-    image: ""
+    image: "mojito.png"
   },
   {
     name: "Margarita",
     desc: "Tekila, triple sec, lime suyu",
     price: "",
-    image: ""
+    image: "margarita.png"
   },
   {
     name: "Cosmopolitan",
     desc: "Votka, Cointreau, lime, turna yemişi suyu",
     price: "",
-    image: ""
+    image: "cosmopolitan.png"
   },
   {
     name: "Sex on the Beach",
     desc: "Votka, şeftali likörü, portakal suyu, turna yemişi suyu",
     price: "",
-    image: ""
+    image: "sex-on-the-beach.png"
   },
   {
     name: "Mai Tai",
     desc: "Rom çeşitleri, orange curaçao, orgeat, lime, şeker şurubu",
     price: "",
-    image: ""
+    image: "mai-tai.png"
   },
   {
     name: "Tekila Sunrise",
     desc: "Tekila, portakal suyu, grenadine",
     price: "",
-    image: ""
+    image: "tekila-sunrise.png"
   },
   {
     name: "Negroni",
     desc: "Gin, Campari, tatlı kırmızı vermut",
     price: "",
-    image: ""
+    image: "negroni.png"
   },
   {
     name: "Mezcal Negroni",
     desc: "Mezcal, Campari, tatlı kırmızı vermut",
     price: "",
-    image: ""
+    image: "mezcal-negroni.png"
   },
   {
     name: "Cherokee",
     desc: "Gin, beyaz rom, portakal suyu, esmer şeker",
     price: "",
-    image: ""
+    image: "cherokee.png"
   },
   {
     name: "B-52",
     desc: "Kahve likörü, Baileys, Cointreau",
     price: "",
-    image: ""
+    image: "b-52.png"
   },
   {
     name: "Piña Colada",
     desc: "Beyaz rom, coconut cream, ananas suyu",
     price: "",
-    image: ""
+    image: "pina-colada.png"
   },
   {
     name: "Bahama Mama",
     desc: "Rom, coconut romu, portakal suyu, ananas suyu, grenadine",
     price: "",
-    image: ""
+    image: "bahama-mama.png"
   },
   {
     name: "Whiskey Sour",
     desc: "Bourbon, limon suyu, şeker şurubu, yumurta akı",
     price: "",
-    image: ""
+    image: "whiskey-sour.png"
   },
   {
     name: "Irish Coffee",
     desc: "Irish whiskey, sıcak kahve, şeker, krema",
     price: "",
-    image: ""
+    image: "irish-coffee.png"
   },
   {
     name: "Espresso Martini",
     desc: "Votka, kahve likörü, espresso, şeker şurubu",
     price: "",
-    image: ""
+    image: "espresso-martini.png"
   },
   {
     name: "Lynchburg Lemonade",
     desc: "Jack Daniel's, triple sec, limon, Sprite",
     price: "",
-    image: ""
+    image: "lyncburg-lemonade.png"
   },
   {
     name: "Daiquiri",
     desc: "Beyaz rom, lime suyu, şeker",
     price: "",
-    image: ""
+    image: "daiquiri.png"
   },
   {
     name: "Aperol Spritz",
     desc: "Aperol, prosecco, soda",
     price: "",
-    image: ""
+    image: "aperol-spritz.png"
   },
   {
     name: "Moscow Mule",
     desc: "Votka, ginger beer, lime",
     price: "",
-    image: ""
+    image: "moscow-mule.png"
   },
   {
     name: "Kuzu Kulağı",
     desc: "Votka, gin, kuzu kulağı, yeşil elma, lime, soda",
     price: "",
-    image: ""
+    image: "kuzu-kulagi.png"
   },
   {
     name: "White Rose",
     desc: "Beyaz rom, lime, şeker şurubu, soda",
     price: "",
-    image: ""
+    image: "white-rose.png"
   },
   {
     name: "Dry Martini",
     desc: "Gin, kuru vermut, yeşil zeytin",
     price: "",
-    image: ""
+    image: "dry-martini.png"
   },
   {
     name: "Blue Hawaii",
     desc: "Beyaz rom, blue curaçao, ananas suyu, coconut cream, lime",
     price: "",
-    image: ""
+    image: "blue-hawaii.png"
   },
   {
     name: "Bloody Mary",
     desc: "Votka, domates suyu, limon, Worcestershire sosu, Tabasco, baharatlar",
     price: "",
-    image: ""
+    image: "bloody-mary.png"
   },
   {
     name: "Manhattan",
     desc: "Rye whiskey, tatlı kırmızı vermut, Angostura bitters",
     price: "",
-    image: ""
+    image: "manhattan.png"
   },
   {
     name: "New York Sour",
     desc: "Bourbon veya rye whiskey, limon suyu, şeker şurubu, yumurta akı, kırmızı şarap",
     price: "",
-    image: ""
+    image: "newyork-sour.png"
   },
     {
   name: "Collins",
   desc: "Cin, limon suyu, şeker şurubu, soda",
   price: "",
-  image: ""
+  image: "collins.png"
 },
 {
   name: "Appletini",
   desc: "Votka, yeşil elma likörü, elma suyu, limon suyu",
   price: "",
-  image: ""
+  image: "appletini.png"
 },
 {
   name: "Pornstar Martini",
   desc: "Vanilyalı votka, passion fruit (çarkıfelek meyvesi) püresi, passion fruit likörü, vanilya şurubu, lime suyu",
   price: "",
-  image: ""
+  image: "pornstar-martini.png"
 },
 {
   name: "Paloma",
   desc: "Tekila, greyfurt sodası, lime suyu, tuz",
   price: "",
-  image: ""
+  image: "paolma.png"
 },
   {
     name: "Bob Marley",
     desc: "Rom, grenadine, ananas suyu, portakal suyu, turunç likörü",
     price: "",
-    image: ""
+    image: "bob-marley.png"
   },
   {
     name: "Gin Tonic",
     desc: "Gin, tonik, lime",
     price: "",
-    image: ""
+    image: "gin-tonic.png"
   }
-]
-}
+
 ]
 }
 ];
