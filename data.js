@@ -220,7 +220,7 @@ const MENU = [
        heroImage:"burger.png",
     footnote: "Burger köftesi %80 dana döş, %20 yağ oranıyla hazırlanır. Tavuk burgerlerde but eti kullanılır.",
     items: [
-      { name: "Classic Burger", desc: "150 gr köfte ,marul, domates, kornişon turşu ve burger sos. Patates kızartması ile servis edilir.", price: "", image: "clasic.png",
+      { name: "Classic Burger", desc: "150 gr köfte ,marul, domates, kornişon turşu ve burger sos. Patates kızartması ile servis edilir.", price: "", image: "clasic.png"},
       { name: "Cheeseburger", desc: "150 gr köfte, cheddar marul, Domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chesse.png" },
       { name: "Easwhite Burger", desc: "300 gr köfte (çift), 2 dilim cheddar,marul, domates,kornişon turşu, karamelize, soğan, burger sos.Patates kızartması ile servis edilir. ", price: "", image: "Mushroom.png", tag: "Şefin Önerisi" },
       { name: "Chicken Burger", desc: "Tavuk, marul, domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chicken-burger.png" }
@@ -234,7 +234,7 @@ const MENU = [
     layout: "grid",
       heroImage:"pizza.png",
     items: [
-      { name: "Margherita", desc: "Domates sos, mozzarella, fesleğen", price: "", image: "margherita.png",
+      { name: "Margherita", desc: "Domates sos, mozzarella, fesleğen", price: "", image: "margherita.png"},
       { name: "Pepperoni", desc: "Domates sos, mozzarella, pepperoni", price: "", image: "pepperoni.png" },
       { name: "Vegetarian Pizza", desc: "Mantar, biber, mısır, zeytin", price: "", image: "vegetarian.png" },
       { name: "Prosciutto e Funghi", desc: "Domates sosu, mozzarella, prosciutto cotto (sucuk), mantar", price: "", image: "Prosciutto.png" },
