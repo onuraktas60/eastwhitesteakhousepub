@@ -298,10 +298,9 @@ const MENU = [
   title: "Biralar / Beers",
   subtitle: "Şişe bira seçenekleri",
   icon: "beer",
-  layout: "list",
+  layout: "grid",
   heroImage:"beers.png",
-  groups: [ {
-         name: "Biralar / Beers",
+
   items: [
     { name: "Efes Şişe", desc: "", price: "", image: "efes.png" },
     { name: "Efes Malt Şişe", desc: "", price: "", image: "efes-malt.png" },
@@ -313,7 +312,6 @@ const MENU = [
     { name: "Tuborg Malt Şişe", desc: "", price: "", image: "tuborg.png" },
     { name: "Tuborg Kırmızı Şişe", desc: "", price: "", image: "tuborg-kirmizi.png" }
   ]
-}]
 },
 
 {
