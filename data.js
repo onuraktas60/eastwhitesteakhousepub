@@ -62,15 +62,11 @@ const MENU = [
     "Mevsim meyveleri",
     "Ceviz",
     "Patates kızartması",
-    "Soğan halkası",
+    "Çıtır tavuk",
     "Nugget",
     "Sigara böreği",
-    "Menemen",
-    "Sucuklu yumurta",
+    "Göz Yumurta",
     "Ekmek",
-    "Simit",
-    "Poğaça",
-    "Açma",
     "Çay"
   ]
 },
@@ -91,7 +87,6 @@ const MENU = [
     "Domates",
     "Biber",
     "Maydanoz",
-    "Yumurta",
     "Ekmek",
     "Çay"
   ]
@@ -151,30 +146,14 @@ const MENU = [
     price: "",
     image: "menemen.png"
   },
-  {
-    name: "Pankek",
-    desc: "Yumuşak ve hafif",
-    price: "",
-    image: "pankek.png"
-  },
-  {
-    name: "Krep",
-    desc: "İnce ve yumuşak",
-    price: "",
-    image: "krep.png"
-  },
+
   {
     name: "Patates Kızartması",
     desc: "Çıtır patatesler",
     price: "",
     image: "parmak-patates.png"
   },
-  {
-    name: "Soğan Halkası",
-    desc: "Çıtır soğan halkaları",
-    price: "",
-    image: "sogan-halkasi.png"
-  },
+
   {
     name: "Nugget",
     desc: "Çıtır tavuk parçaları",
