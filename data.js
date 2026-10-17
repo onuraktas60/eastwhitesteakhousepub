@@ -208,7 +208,7 @@ const MENU = [
       { name: "Kaşarlı Mantar", desc: "", price: "", image: "kasarli-mantar.jpg" },
       { name: "Parmak Patates", desc: "", price: "", image: "parmak-patates.png" },
       { name: "Elma Dilim Patates", desc: "", price: "", image: "elma-dilim.png" },
-      { name: "Çıtır Tavuk", desc: "", price: "", image: "chicken.png" },
+      { name: "Çıtır Tavuk", desc: "", price: "", image: "chicken.png" }
     ]
   },
   {
@@ -223,7 +223,7 @@ const MENU = [
       { name: "Classic Burger", desc: "150 gr köfte ,marul, domates, kornişon turşu ve burger sos. Patates kızartması ile servis edilir.", price: "", image: "clasic.png",
       { name: "Cheeseburger", desc: "150 gr köfte, cheddar marul, Domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chesse.png" },
       { name: "Easwhite Burger", desc: "300 gr köfte (çift), 2 dilim cheddar,marul, domates,kornişon turşu, karamelize, soğan, burger sos.Patates kızartması ile servis edilir. ", price: "", image: "Mushroom.png", tag: "Şefin Önerisi" },
-      { name: "Chicken Burger", desc: "Tavuk, marul, domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chicken-burger.png" },
+      { name: "Chicken Burger", desc: "Tavuk, marul, domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chicken-burger.png" }
     ]
   },
   {
@@ -270,7 +270,7 @@ const MENU = [
       { name: "Roka Salatası", desc: "", price: "", image: "roka.png" },
       { name: "Mevsim Salata", desc: "", price: "", image: "mevsim.png" },
       { name: "Çoban Salata", desc: "", price: "", image: "coban.png" },
-      { name: "Ton Balıklı Salata", desc: "", price: "", image: "ton-balikli.png" }
+      { name: "Ton Balıklı Salata", desc: "", price: "", image: "ton-balikli.png" },
       { name: "Sezar Salata", desc: "", price: "", image: "sezar.png" }
     ]
   },
@@ -288,7 +288,7 @@ const MENU = [
       { name: "Girit Ezmesi", desc: "", price: "", image: "girit.png" },
       { name: "Kuru Cacık", desc: "", price: "", image: "kuru-cacik.png" },
       { name: "Karışık Söğürme", desc: "", price: "", image: "sogurme.png" },
-      { name: "Koyun Yoğurdu", desc: "", price: "", image: "yogurt.png" }
+      { name: "Koyun Yoğurdu", desc: "", price: "", image: "yogurt.png" },
       { name: "Atom", desc: "", price: "", image: "atom.png" }
 
     ]
