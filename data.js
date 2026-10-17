@@ -73,7 +73,7 @@ const MENU = [
    {
   name: "Kahvaltı Tabağı",
   desc: "Zengin kahvaltılık çeşitleriyle",
-  price: "",
+  price: "400 ₺",
   image: "kahvalti-tabagi.png",
   ingredients: [
     "2 çeşit reçel",
@@ -95,81 +95,81 @@ const MENU = [
   {
     name: "Kuymak",
     desc: "Tereyağı ve peynir ile",
-    price: "",
+    price: "400 ₺",
     image: "kuymak.png"
   },
   {
     name: "Kavurmalı Yumurta",
     desc: "Kavurma ve yumurta",
-    price: "",
+    price: "200 ₺",
     image: "kavurmali-yumurta.png"
   },
   {
     name: "Kıymalı Yumurta",
     desc: "Kıyma ve yumurta",
-    price: "",
+    price: "200 ₺",
     image: "kiymali-yumurta.png"
   },
   {
     name: "Göz Yumurta",
     desc: "Tereyağında göz yumurta",
-    price: "",
+    price: "100 ₺",
     image: "goz-yumurta.png"
   },
   {
     name: "Omlet",
     desc: "Taze yumurta ile",
-    price: "",
+    price: "100 ₺",
     image: "omlet.png"
   },
   {
     name: "Haşlanmış Yumurta",
     desc: "Haşlanmış yumurta",
-    price: "",
+    price: "25 ₺",
     image: "haslanmis-yumurta.png"
   },
   {
     name: "Sucuklu Yumurta",
     desc: "Sucuk ve yumurta",
-    price: "",
+    price: "175 ₺",
     image: "sucuklu-yumurta.png"
   },
   {
     name: "Sucuklu Kaşarlı Yumurta",
     desc: "Sucuk, yumurta ve kaşar",
-    price: "",
+    price: "200 ₺",
     image: "sucuklu-kasarli-yumurta.png"
   },
   {
     name: "Menemen",
     desc: "Domates, biber ve yumurta",
-    price: "",
+    price: "150 ₺",
     image: "menemen.png"
   },
 
   {
     name: "Patates Kızartması",
     desc: "Çıtır patatesler",
-    price: "",
+    price: "120 ₺",
     image: "parmak-patates.png"
   },
 
   {
     name: "Nugget",
     desc: "Çıtır tavuk parçaları",
-    price: "",
+    price: "175 ₺",
     image: "nugget.png"
   },
   {
     name: "Sigara Böreği",
     desc: "Çıtır peynirli börek",
-    price: "",
+    price: "175 ₺",
     image: "sigara-boregi.png"
   },
   {
     name: "Kızarmış Sucuk",
     desc: "Tavada kızartılmış sucuk",
-    price: "",
+    price: "200 ₺",
     image: "kizarmis-sucuk.png"
   }
 
@@ -183,16 +183,16 @@ const MENU = [
     layout: "grid",
     heroImage: "steak.png",
     items: [
-      { name: "Dana Şaşlık", desc: "200 gr bonfile , domates ve biber ile servis edilir.", price: "", image: "saslik.png" },
-      { name: "Şatobriyan", desc: "-250gr bonfile", price: "", image: "satobiryan.png" },
-      { name: "T-Bone Steak", desc: "350 gr et ve garnitürler ile servis edilir.", price: "", image: "tbone.png" },
-      { name: "R-Bay ", desc: "200 gr antrikot ve garnitürler ile servis edilir.", price: "", image: "ribeye.png", tag: "Şefin Önerisi",},
-      { name: "New York Steak", desc: "200 gr Kontrfile ve garnitürler ile servis edilir.", price: "", image: "newyorksteak.png" },
-      { name: "Madalyon", desc: "200 gr bonfile ve garnitürler ile servis edilir.", price: "", image: "madalyon.jpg" },
-      { name: "Tomahawk Steak", desc: "800 gr garnitürler ile servis edilebilir", price: "", image: "Tomahawk.jpg", tag: "Paylaşımlık" },
-      { name: "Kuzu Pirzola", desc: "200 gr pirzola ve garnitürler ile servis edilir.", price: "", image: "Kuzupirzola.webp" },
-       { name: "Kasap Köfte", desc: "200 gr köfte ve garnitürler ile servis edilir.", price: "", image: "kasap-kofte.png" },
-             { name: "Kaşarlı Kasap Köfte", desc: "200 gr kaşarlı köfte ve garnitürler ile servis edilir.", price: "", image: "kasar-kofte.png" }
+      { name: "Dana Şaşlık", desc: "200 gr bonfile , domates ve biber ile servis edilir.", price: "550 ₺", image: "saslik.png" },
+      { name: "Şatobriyan", desc: "-250gr bonfile", price: "650 ₺", image: "satobiryan.png" },
+      { name: "T-Bone Steak", desc: "350 gr et ve garnitürler ile servis edilir.", price: "700 ₺", image: "tbone.png" },
+      { name: "R-Bay ", desc: "200 gr antrikot ve garnitürler ile servis edilir.", price: "450 ₺", image: "ribeye.png", tag: "Şefin Önerisi",},
+      { name: "New York Steak", desc: "200 gr Kontrfile ve garnitürler ile servis edilir.", price: "450 ₺", image: "newyorksteak.png" },
+      { name: "Madalyon", desc: "200 gr bonfile ve garnitürler ile servis edilir.", price: "500 ₺", image: "madalyon.jpg" },
+      { name: "Tomahawk Steak", desc: "800 gr garnitürler ile servis edilebilir", price: "1600 ₺", image: "Tomahawk.jpg", tag: "Paylaşımlık" },
+      { name: "Pirzola", desc: "200 gr pirzola ve garnitürler ile servis edilir.", price: "450 ₺", image: "Kuzupirzola.webp" },
+       { name: "Kasap Köfte", desc: "200 gr köfte ve garnitürler ile servis edilir.", price: "450 ₺", image: "kasap-kofte.png" },
+             { name: "Kaşarlı Kasap Köfte", desc: "200 gr kaşarlı köfte ve garnitürler ile servis edilir.", price: "550 ₺", image: "kasar-kofte.png" }
 
     ]
   },
@@ -204,11 +204,11 @@ const MENU = [
     layout: "grid",
     heroImage:"baslangic.png",
     items: [
-      { name: "Izgara Mantar", desc: "", price: "", image: "izgaramantar.png" },
-      { name: "Kaşarlı Mantar", desc: "", price: "", image: "kasarli-mantar.jpg" },
-      { name: "Parmak Patates", desc: "", price: "", image: "parmak-patates.png" },
-      { name: "Elma Dilim Patates", desc: "", price: "", image: "elma-dilim.png" },
-      { name: "Çıtır Tavuk", desc: "", price: "", image: "chicken.png" }
+      { name: "Izgara Mantar", desc: "", price: "200 ₺", image: "izgaramantar.png" },
+      { name: "Kaşarlı Mantar", desc: "", price: "250 ₺", image: "kasarli-mantar.jpg" },
+      { name: "Parmak Patates", desc: "", price: "150 ₺", image: "parmak-patates.png" },
+      { name: "Elma Dilim Patates", desc: "", price: "200 ₺", image: "elma-dilim.png" },
+      { name: "Çıtır Tavuk", desc: "", price: "300 ₺", image: "chicken.png" }
     ]
   },
   {
@@ -220,10 +220,10 @@ const MENU = [
        heroImage:"burger.png",
     footnote: "Burger köftesi %80 dana döş, %20 yağ oranıyla hazırlanır. Tavuk burgerlerde but eti kullanılır.",
     items: [
-      { name: "Classic Burger", desc: "150 gr köfte ,marul, domates, kornişon turşu ve burger sos. Patates kızartması ile servis edilir.", price: "", image: "clasic.png"},
-      { name: "Cheeseburger", desc: "150 gr köfte, cheddar marul, Domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chesse.png" },
-      { name: "Easwhite Burger", desc: "300 gr köfte (çift), 2 dilim cheddar,marul, domates,kornişon turşu, karamelize, soğan, burger sos.Patates kızartması ile servis edilir. ", price: "", image: "Mushroom.png", tag: "Şefin Önerisi" },
-      { name: "Chicken Burger", desc: "Tavuk, marul, domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "", image: "chicken-burger.png" }
+      { name: "Classic Burger", desc: "150 gr köfte ,marul, domates, kornişon turşu ve burger sos. Patates kızartması ile servis edilir.", price: "450 ₺", image: "clasic.png"},
+      { name: "Cheeseburger", desc: "150 gr köfte, cheddar marul, Domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "500 ₺", image: "chesse.png" },
+      { name: "Easwhite Burger", desc: "300 gr köfte (çift), 2 dilim cheddar,marul, domates,kornişon turşu, karamelize, soğan, burger sos.Patates kızartması ile servis edilir. ", price: "800 ₺", image: "Mushroom.png", tag: "Şefin Önerisi" },
+      { name: "Chicken Burger", desc: "Tavuk, marul, domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "400 ₺", image: "chicken-burger.png" }
     ]
   },
   {
@@ -234,11 +234,11 @@ const MENU = [
     layout: "grid",
       heroImage:"pizza.png",
     items: [
-      { name: "Margherita", desc: "Domates sos, mozzarella, fesleğen", price: "", image: "margherita.png"},
-      { name: "Pepperoni", desc: "Domates sos, mozzarella, pepperoni", price: "", image: "pepperoni.png" },
-      { name: "Vegetarian Pizza", desc: "Mantar, biber, mısır, zeytin", price: "", image: "vegetarian.png" },
-      { name: "Prosciutto e Funghi", desc: "Domates sosu, mozzarella, prosciutto cotto (sucuk), mantar", price: "", image: "Prosciutto.png" },
-      { name: "Easwhite Pizza", desc: "Domates Sos, Mozzarella, mantar, biber, mısır, zeytin, sucuk", price: "", image: "karisik.png" }
+      { name: "Margherita", desc: "Domates sos, mozzarella, fesleğen", price: "350 ₺", image: "margherita.png"},
+      { name: "Pepperoni", desc: "Domates sos, mozzarella, pepperoni", price: "425 ₺", image: "pepperoni.png" },
+      { name: "Vegetarian Pizza", desc: "Mantar, biber, mısır, zeytin", price: "350 ₺", image: "vegetarian.png" },
+      { name: "Prosciutto e Funghi", desc: "Domates sosu, mozzarella, prosciutto cotto (sucuk), mantar", price: "475 ₺", image: "Prosciutto.png" },
+      { name: "Easwhite Pizza", desc: "Domates Sos, Mozzarella, mantar, biber, mısır, zeytin, sucuk", price: "550 ₺", image: "karisik.png" }
     ]
   },
   {
@@ -249,12 +249,12 @@ const MENU = [
     layout: "grid",
      heroImage:"makarna.png",
     items: [
-      { name: "Kremalı Karamelize Soğanlı", desc: "", price: "", image: "soganli.png" },
-      { name: "Napolitan Soslu", desc: "", price: "", image: "marinara.png" },
-      { name: "Bolonez Soslu", desc: "", price: "", image: "bolonez.png" },
-      { name: "Arabiatta Soslu", desc: "", price: "", image: "arrbiatta.png" },
-      { name: "Pesto Soslu", desc: "", price: "", image: "pesto.png" },
-      { name: "Kremalı Mantarlı", desc: "", price: "", image: "krema.png" }
+      { name: "Kremalı Karamelize Soğanlı", desc: "", price: "300 ₺", image: "soganli.png" },
+      { name: "Napolitan Soslu", desc: "", price: "300 ₺", image: "marinara.png" },
+      { name: "Bolonez Soslu", desc: "", price: "400 ₺", image: "bolonez.png" },
+      { name: "Arabiatta Soslu", desc: "", price: "300 ₺", image: "arrbiatta.png" },
+      { name: "Pesto Soslu", desc: "", price: "300 ₺", image: "pesto.png" },
+      { name: "Kremalı Mantarlı", desc: "", price: "300 ₺", image: "krema.png" }
     ]
   },
   {
@@ -265,13 +265,13 @@ const MENU = [
     layout: "grid",
      heroImage:"salata.png",
     items: [
-      { name: "Akdeniz Salatası", desc: "", price: "", image: "akdeniz.png" },
-      { name: "Gavurdağı Salata", desc: "", price: "", image: "gavurdagi.png" },
-      { name: "Roka Salatası", desc: "", price: "", image: "roka.png" },
-      { name: "Mevsim Salata", desc: "", price: "", image: "mevsim.png" },
-      { name: "Çoban Salata", desc: "", price: "", image: "coban.png" },
-      { name: "Ton Balıklı Salata", desc: "", price: "", image: "ton-balikli.png" },
-      { name: "Sezar Salata", desc: "", price: "", image: "sezar.png" }
+      { name: "Akdeniz Salatası", desc: "", price: "150 ₺", image: "akdeniz.png" },
+      { name: "Gavurdağı Salata", desc: "", price: "200 ₺", image: "gavurdagi.png" },
+      { name: "Roka Salatası", desc: "", price: "100 ₺", image: "roka.png" },
+      { name: "Mevsim Salata", desc: "", price: "120 ₺", image: "mevsim.png" },
+      { name: "Çoban Salata", desc: "", price: "120 ₺", image: "coban.png" },
+      { name: "Ton Balıklı Salata", desc: "", price: "400 ₺", image: "ton-balikli.png" },
+      { name: "Sezar Salata", desc: "", price: "450 ₺", image: "sezar.png" }
     ]
   },
   {
@@ -283,13 +283,13 @@ const MENU = [
       heroImage:"meze.png",
     items: [
 
-      { name: "Havuç Tarator", desc: "", price: "", image: "havuc-tarator.png" },
-      { name: "Köz Patlıcanlı Yoğurt ", desc: "", price: "", image: "koz-patlicanli.png" },
-      { name: "Girit Ezmesi", desc: "", price: "", image: "girit.png" },
-      { name: "Kuru Cacık", desc: "", price: "", image: "kuru-cacik.png" },
-      { name: "Karışık Söğürme", desc: "", price: "", image: "sogurme.png" },
-      { name: "Koyun Yoğurdu", desc: "", price: "", image: "yogurt.png" },
-      { name: "Atom", desc: "", price: "", image: "atom.png" }
+      { name: "Havuç Tarator", desc: "", price: "200 ₺", image: "havuc-tarator.png" },
+      { name: "Köz Patlıcanlı Yoğurt ", desc: "", price: "200 ₺", image: "koz-patlicanli.png" },
+      { name: "Girit Ezmesi", desc: "", price: "250 ₺", image: "girit.png" },
+      { name: "Kuru Cacık", desc: "", price: "150 ₺", image: "kuru-cacik.png" },
+      { name: "Babaganuş", desc: "", price: "200 ₺", image: "sogurme.png" },
+      { name: "Koyun Yoğurdu", desc: "", price: "200 ₺", image: "yogurt.png" },
+      { name: "Atom", desc: "", price: "200 ₺", image: "atom.png" }
 
     ]
   },
@@ -677,6 +677,30 @@ const MENU = [
     price: "",
     image: ""
   },
+    {
+  name: "Collins",
+  desc: "Cin, limon suyu, şeker şurubu, soda",
+  price: "",
+  image: ""
+},
+{
+  name: "Appletini",
+  desc: "Votka, yeşil elma likörü, elma suyu, limon suyu",
+  price: "",
+  image: ""
+},
+{
+  name: "Pornstar Martini",
+  desc: "Vanilyalı votka, passion fruit (çarkıfelek meyvesi) püresi, passion fruit likörü, vanilya şurubu, lime suyu",
+  price: "",
+  image: ""
+},
+{
+  name: "Paloma",
+  desc: "Tekila, greyfurt sodası, lime suyu, tuz",
+  price: "",
+  image: ""
+},
   {
     name: "Bob Marley",
     desc: "Rom, grenadine, ananas suyu, portakal suyu, turunç likörü",
