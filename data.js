@@ -38,9 +38,9 @@ const MENU = [
     heroImage: "serpme.png",
     items: [
      {
-  name: "Serpme Kahvaltı",
-  desc: "En az iki kişilik",
-  price: "",
+  name: "Açık Büfe Kahvaltı",
+  desc: "",
+  price: "1000 ₺",
   image: "serpme.png",
   ingredients: [
     "3 çeşit reçel",
