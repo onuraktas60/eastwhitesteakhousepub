@@ -78,8 +78,8 @@ const MENU = [
   ingredients: [
     "2 çeşit reçel",
     "Çikolatalı fındık kreması",
-    "Helva",
-    "Bal-kaymak",
+    "Haşlanmış Yumurta",
+    "Sigara Böreği",
     "3 çeşit peynir",
     "Zeytin çeşitleri",
     "Salam",
