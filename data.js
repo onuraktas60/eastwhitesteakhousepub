@@ -187,8 +187,8 @@ const MENU = [
       { name: "Sigara Böreği", desc: "", price: "300 ₺", image: "sigara.png" },
       { name: "Yaprak Ciğer", desc: "", price: "600 ₺", image: "ciger.png" },
       { name: "Pastırmalı Sıcak Humus", desc: "", price: "600 ₺", image: "humus.png" },
-      { name: "Tereyağlı Karides", desc: "", price: "500 ₺", image: "karides.png" },
-      { name: "Kalamar", desc: "", price: "500 ₺", image: "kalamar.png" },
+      { name: "Tereyağlı Karides", desc: "", price: "", image: "karides.png" },
+      { name: "Kalamar", desc: "", price: "", image: "kalamar.png" },
       { name: "Fırında Kaşarlı Mantar", desc: "", price: "400 ₺", image: "kasarli-mantarli.png" },
     ]
   },
@@ -207,6 +207,7 @@ const MENU = [
       { name: "New York Steak", desc: "200 gr Kontrfile ve garnitürler ile servis edilir.", price: "700 ₺", image: "newyorksteak.png" },
       { name: "Madalyon", desc: "200 gr bonfile ve garnitürler ile servis edilir.", price: "700 ₺", image: "madalyon.jpg" },
       { name: "Pirzola", desc: "200 gr pirzola ve garnitürler ile servis edilir.", price: "Kuzu 650 ₺ Dana 750 ₺", image: "Kuzupirzola.webp" },
+      { name: "Tomahawk Steak (2 Kişilik)", desc: "800 gr garnitürler ile servis edilebilir", price: "1800 ₺", image: "Tomahawk.jpg", tag: "2 Kişilik" },
       { name: "Kasap Köfte", desc: "200 gr köfte ve garnitürler ile servis edilir.", price: "500 ₺", image: "kasap-kofte.png" },
       { name: "Kaşarlı Kasap Köfte", desc: "200 gr kaşarlı köfte ve garnitürler ile servis edilir.", price: "650 ₺", image: "kasar-kofte.png" },
       { name: "Demi Glace Bonfile", desc: "", price: "750 ₺", image: "demi.png" },
