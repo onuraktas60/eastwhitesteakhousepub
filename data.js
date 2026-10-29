@@ -40,9 +40,8 @@ const MENU = [
      {
   name: "Serpme Kahvaltı",
   desc: "",
-  price: "1400 ₺",
+  price: "Kişi Başı 700 ₺",
   image: "serpme.png",
-  tag: "İki Kişilik",
   ingredients: [
     "3 çeşit reçel",
     "Çikolatalı fındık kreması",
