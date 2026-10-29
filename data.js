@@ -340,8 +340,12 @@ const MENU = [
     items: [
       { name: "Atom", desc: "", price: "300 ₺", image: "atom.png" },
       { name: "Arnavut Ciğeri", desc: "", price: "450 ₺", image: "arnavut-cigeri.png" },
+      { name: "Babaganuş", desc: "", price: "250 ₺", image: "sogurme.png" },
+      { name: "Havuç Tarator", desc: "", price: "250 ₺", image: "havuc-tarator.png" },
+      { name: "Köz Patlıcanlı Yoğurt ", desc: "", price: "250 ₺", image: "koz-patlicanli.png" },
       { name: "Ton Balığı", desc: "", price: "350 ₺", image: "ton-baligi.png" },
       { name: "Barbunya Pilaki", desc: "", price: "250 ₺", image: "barbunya.png" },
+      { name: "Humus", desc: "", price: "250 ₺", image: "humus2.png" },
       { name: "Semiz Otu", desc: "", price: "250 ₺", image: "semizotu.png" },
       { name: "Rus Salatası", desc: "", price: "250 ₺", image: "rus-salatasi.png" },
       { name: "Şakşuka", desc: "", price: "250 ₺", image: "saksuka.png" },
