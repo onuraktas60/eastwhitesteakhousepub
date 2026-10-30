@@ -156,7 +156,7 @@ const MENU = [
     image: "nugget.png"
   },
   {
-    name: "Sigara Böreği(4 Adet)",
+    name: "Sigara Böreği",
     desc: "Çıtır peynirli börek",
     price: "200 ₺",
     image: "sigara-boregi.png"
@@ -189,7 +189,7 @@ const MENU = [
       { name: "Pastırmalı Sıcak Humus", desc: "", price: "600 ₺", image: "humus.png" },
       { name: "Tereyağlı Karides", desc: "", price: "", image: "karides.png" },
       { name: "Kalamar", desc: "", price: "", image: "kalamar.png" },
-      { name: "Fırında Kaşarlı Mantar", desc: "", price: "400 ₺", image: "kasarli-mantarli.png" },
+    
     ]
   },
   {
@@ -327,7 +327,7 @@ const MENU = [
       { name: "Çoban Salata", desc: "", price: "300 ₺", image: "coban.png" },
       { name: "Ton Balıklı Salata", desc: "", price: "450 ₺", image: "ton-balikli.png" },
       { name: "Tavuklu Sezar Salata", desc: "", price: "450 ₺", image: "sezar.png" },
-      { name: "Bonfile Parçacıklı Salata", desc: "", price: "500 ₺", image: "bonfile-salata.png" },
+      { name: "Biftek Salata", desc: "", price: "550 ₺", image: "bonfile-salata.png" },
     ]
   },
   {
@@ -351,8 +351,8 @@ const MENU = [
       { name: "Şakşuka", desc: "", price: "250 ₺", image: "saksuka.png" },
       { name: "Girit Ezmesi", desc: "", price: "250 ₺", image: "girit.png" },
       { name: "Kuru Cacık", desc: "", price: "250 ₺", image: "kuru-cacik.png" },
-      { name: "Salatalık Turşusu", desc: "", price: "300 ₺", image: "tursu.png" },
-      { name: "Süzme Yoğurt", desc: "", price: "300 ₺", image: "yogurt.png" },
+      { name: "Salatalık Turşusu", desc: "", price: "250 ₺", image: "tursu.png" },
+      { name: "Süzme Yoğurt", desc: "", price: "200 ₺", image: "yogurt.png" },
       { name: "Porsiyon Peynir", desc: "", price: "300 ₺", image: "peynir-tabagi.png" }
    
 
@@ -374,6 +374,9 @@ const MENU = [
     { name: "Ice Tea", desc: "", price: "150 ₺", image: "icetea.png" },
     { name: "Meyve Suyu Çeşitleri", desc: "150 ₺", price: "", image: "meyvesuyu.png" },
     { name: "Ayran", desc: "", price: "120 ₺", image: "ayran.png" },
+    { name: "Soda", desc: "", price: "100 ₺", image: "soda.png" },
+    { name: "Red Bull", desc: "", price: "250 ₺", image: "redbull.png" },
+    { name: "Churcill", desc: "", price: "250 ₺", image: "churcill.png" },
     { name: "Şalgam", desc: "", price: "120 ₺", image: "salgam.png" },
     { name: "Su (Büyük)", desc: "", price: "150 ₺", image: "buyuk-su.png" },
     { name: "Su (Küçük)", desc: "", price: "70 ₺", image: "su.png" }
@@ -390,8 +393,8 @@ const MENU = [
   items: [
     
     { name: "Türk Kahvesi", desc: "", price: "150 ₺", image: "kahve.png" },
+    { name: "Duble Türk Kahvesi", desc: "", price: "200 ₺", image: "kahve.png" },
     { name: "Filtre Kahve", desc: "", price: "100 ₺", image: "filtre.png" },
-    { name: "Küçük Bardak Çay", desc: "", price: "50 ₺", image: "cay.png" },
     { name: "Fincan Çay", desc: "", price: "100 ₺", image: "fincan-cay.png" }
   ]
 
@@ -479,9 +482,33 @@ const MENU = [
       heroImage:"viskiler.png",
  items: [
     {
-      name: "Chivas Regal",
+      name: "35 cl Chivas Regal",
       desc: "İskoç harman viski",
-      price: "",
+      price: "2600 ₺",
+      image: "chivas-regal.png"
+    },
+     {
+      name: "50 cl Chivas Regal",
+      desc: "İskoç harman viski",
+      price: "3600 ₺",
+      image: "chivas-regal.png"
+    },
+     {
+      name: "70 cl Chivas Regal",
+      desc: "İskoç harman viski",
+      price: "4600 ₺",
+      image: "chivas-regal.png"
+    },
+     {
+      name: "Duble Chivas Regal 13 cl",
+      desc: "İskoç harman viski",
+      price: "550 ₺",
+      image: "chivas-regal.png"
+    },
+     {
+      name: "Tek Chivas Regal 10 cl",
+      desc: "İskoç harman viski",
+      price: "450 ₺",
       image: "chivas-regal.png"
     },
     {
@@ -558,13 +585,7 @@ const MENU = [
       image: "jagermeister.png"
     },
      {
-      name: "Duble Jägermeister",
-      desc: "Bitkisel likör",
-      price: "600 ₺",
-      image: "jagermeister.png"
-    },
-      {
-      name: "Tek Jägermeister",
+      name: "Shot Jägermeister",
       desc: "Bitkisel likör",
       price: "400 ₺",
       image: "jagermeister.png"
