@@ -763,26 +763,26 @@ const MENU = [
   subtitle: "Özenle hazırlanan klasik ve özel kokteyller",
   icon: "cocktail",
   layout: "grid",
-      heroImage:"akokteyl.png",
+      heroImage:"kokteyl.png",
  items: [
   {
     name: "Mojito",
     desc: "",
     price: "",
-    image: "amojito.png"
+    image: "mojito.png"
   },
   {
     name: "Margarita",
     desc: "",
     price: "",
-    image: "amargarita.png"
+    image: "margarita.png"
   },
   
   {
     name: "Sex on the Beach",
     desc: "",
     price: "",
-    image: "asex-on-the-beach.png"
+    image: "sex-on-the-beach.png"
   },
 
  
@@ -791,14 +791,14 @@ const MENU = [
     name: "Piña Colada",
     desc: "",
     price: "",
-    image: "apina-colada.png"
+    image: "pina-colada.png"
   },
 
   {
     name: "Whiskey Sour",
     desc: "",
     price: "",
-    image: "awhiskey-sour.png"
+    image: "whiskey-sour.png"
   },
  
  
