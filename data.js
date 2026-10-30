@@ -758,7 +758,7 @@ const MENU = [
 ]
 },
    {
-  id: "kokteyller",
+  id: "akokteyller",
   title: "Alkolsüz Kokteyller /Non-Alcholic Cocktails",
   subtitle: "Özenle hazırlanan klasik ve özel kokteyller",
   icon: "cocktail",
