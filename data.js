@@ -284,7 +284,7 @@ const MENU = [
       { name: "Chicken Burger", desc: "Tavuk, marul, domates, kornişon turşu, burger sos.Patates kızartması ile servis edilir.", price: "450 ₺", image: "chicken-burger.png" },
       { name: "Polo Burger", desc: "", price: "400 ₺", image: "polo-burger.png" },
       { name: "Islak Burger", desc: "", price: "400 ₺", image: "islak-burger.png" },
-      { name: "Double Burger", desc: "", price: "450 ₺", image: "islak-burger.png" }
+      { name: "Double Burger", desc: "", price: "450 ₺", image: "duble-burger.png" }
     ]
   },
   {
