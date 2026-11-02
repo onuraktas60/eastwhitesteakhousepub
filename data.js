@@ -394,10 +394,10 @@ const MENU = [
     heroImage:"soguk-icecek.png",
   items: [
     
-    { name: "Coca Cola", desc: "", price: "150 ₺", image: "cola.png" },
-    { name: "Fanta", desc: "", price: "150 ₺", image: "fanta.png" },
-    { name: "Sprite", desc: "", price: "150 ₺", image: "sprite.png" },
-    { name: "Ice Tea", desc: "", price: "150 ₺", image: "icetea.png" },
+    { name: "Coca Cola", desc: "", price: "100 ₺", image: "cola.png" },
+    { name: "Fanta", desc: "", price: "100 ₺", image: "fanta.png" },
+    { name: "Sprite", desc: "", price: "110 ₺", image: "sprite.png" },
+    { name: "Ice Tea", desc: "", price: "110 ₺", image: "icetea.png" },
     { name: "Meyve Suyu Çeşitleri", desc: "150 ₺", price: "", image: "meyvesuyu.png" },
     { name: "Ayran", desc: "", price: "100 ₺", image: "ayran.png" },
     { name: "Soda", desc: "", price: "100 ₺", image: "soda.png" },
@@ -435,15 +435,15 @@ const MENU = [
   heroImage:"beers.png",
 
   items: [
-    { name: "Efes", desc: "", price: "Şişe 300 ₺ - Kutu 250 ₺", image: "efes.png" },
-    { name: "Efes Malt Şişe", desc: "", price: "Şişe 300 ₺ - Kutu 250 ₺", image: "efes-malt.png" },
-    { name: "Efes Green Şişe", desc: "", price: "Şişe 300 ₺ - Kutu 250 ₺", image: "efes-green.png" },
-    { name: "Bomonti Şişe", desc: "", price: "Şişe 300 ₺ - Kutu 250 ₺", image: "bomonti.png" },
-    { name: "Miller Şişe", desc: "", price: "350 ₺", image: "miller.png" },
-    { name: "Corona Şişe", desc: "", price: "350 ₺", image: "corona.png" },
-    { name: "Carlsberg Şişe", desc: "", price: "350 ₺", image: "carlsberg.png" },
-    { name: "Tuborg Malt Şişe", desc: "", price: "Şişe 300 ₺ - Kutu 250 ₺", image: "tuborg.png" },
-    { name: "Tuborg Kırmızı Şişe", desc: "", price: "Şişe 300 ₺ - Kutu 250 ₺", image: "tuborg-kirmizi.png" },
+    { name: "Efes", desc: "", price: "", image: "efes.png" },
+    { name: "Efes Malt Şişe", desc: "", price: "", image: "efes-malt.png" },
+    { name: "Efes Green Şişe", desc: "", price: "", image: "efes-green.png" },
+    { name: "Bomonti Şişe", desc: "", price: "", image: "bomonti.png" },
+    { name: "Miller Şişe", desc: "", price: "", image: "miller.png" },
+    { name: "Corona Şişe", desc: "", price: "", image: "corona.png" },
+    { name: "Carlsberg Şişe", desc: "", price: "", image: "carlsberg.png" },
+    { name: "Tuborg Malt Şişe", desc: "", price: "", image: "tuborg.png" },
+    { name: "Tuborg Kırmızı Şişe", desc: "", price: "", image: "tuborg-kirmizi.png" },
   ]
 },
 
@@ -461,37 +461,37 @@ const MENU = [
     {
       name: "35 CL Beylerbeyi Rakı",
       desc: "Premium Türk rakısı",
-      price: "2500 ₺",
+      price: "",
       image: "beylerbeyi-raki.png"
     },
     {
       name: "50 CL Beylerbeyi Rakı",
       desc: "Premium Türk rakısı",
-      price: "3500 ₺",
+      price: "",
       image: "beylerbeyi-raki.png"
     },
     {
       name: "70 CL Beylerbeyi Rakı",
       desc: "Premium Türk rakısı",
-      price: "4600 ₺",
+      price: "",
       image: "beylerbeyi-raki.png"
     },
     {
       name: "100 CL Beylerbeyi Rakı",
       desc: "Premium Türk rakısı",
-      price: "6000 ₺",
+      price: "",
       image: "beylerbeyi-raki.png"
     },
      {
       name: "Duble Rakı",
       desc: "Premium Türk rakısı",
-      price: "550 ₺",
+      price: "",
       image: "duble-raki.png"
     },
     {
       name: "Tek Rakı",
       desc: "Premium Türk rakısı",
-      price: "450 ₺",
+      price: "",
       image: "tek-raki.png"
     }
  ]
@@ -511,37 +511,37 @@ const MENU = [
     {
       name: "35 cl Chivas Regal",
       desc: "İskoç harman viski",
-      price: "2600 ₺",
+      price: "",
       image: "chivas-regal.png"
     },
      {
       name: "50 cl Chivas Regal",
       desc: "İskoç harman viski",
-      price: "3600 ₺",
+      price: "",
       image: "chivas-regal.png"
     },
      {
       name: "70 cl Chivas Regal",
       desc: "İskoç harman viski",
-      price: "4600 ₺",
+      price: "",
       image: "chivas-regal.png"
     },
      {
       name: "100 cl Chivas Regal",
       desc: "İskoç harman viski",
-      price: "6500 ₺",
+      price: "",
       image: "chivas-regal.png"
     },
      {
       name: "Duble Chivas Regal 13 cl",
       desc: "İskoç harman viski",
-      price: "550 ₺",
+      price: "",
       image: "chivas-regal.png"
     },
      {
       name: "Tek Chivas Regal 10 cl",
       desc: "İskoç harman viski",
-      price: "450 ₺",
+      price: "",
       image: "chivas-regal.png"
     },
     {
@@ -594,33 +594,33 @@ const MENU = [
     {
       name: "35 cl Jägermeister",
       desc: "Bitkisel likör",
-      price: "2000 ₺",
+      price: "",
       image: "jagermeister.png"
     },
 
        {
       name: "50 cl Jägermeister",
       desc: "Bitkisel likör",
-      price: "3000 ₺",
+      price: "",
       image: "jagermeister.png"
     },
     {
       name: "70 cl Jägermeister",
       desc: "Bitkisel likör",
-      price: "4000 ₺",
+      price: "",
       image: "jagermeister.png"
     },
 
      {
       name: "100 cl Jägermeister",
       desc: "Bitkisel likör",
-      price: "6000 ₺",
+      price: "",
       image: "jagermeister.png"
     },
      {
       name: "Shot Jägermeister",
       desc: "Bitkisel likör",
-      price: "400 ₺",
+      price: "",
       image: "jagermeister.png"
     }
   ]
